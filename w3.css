@@ -26,8 +26,9 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
 ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
 /* End extract */
 html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
-h1{font-size:36px}h2{font-size:24px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}.w3-serif{font-family:serif}
-h1,h2,h3,h4,h5,h6{ font-family: 'Baloo Thambi', cursive; font-weight:400;margin: 0 ; color:#9C2A8E}.w3-wide{letter-spacing:4px}
+
+.w3-serif{font-family:serif}
+h1,h2,h3,h4,h5{ font-family: 'Baloo Thambi', cursive; font-weight:400;margin: 0 ; color:#9C2A8E}.w3-wide{letter-spacing:4px}
 hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-image{max-width:100%;height:auto}img{margin-bottom:-5px}a{color:inherit}
 .w3-table,.w3-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}.w3-table-all{border:1px solid #ccc}
@@ -239,6 +240,12 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
      /*width: 100%;
      border-style: solid;*/
 }
+
+.coverbox{
+    height: 400px;
+     display: table;
+
+}
 .subtitle{
      width: 50%;
      margin: auto;
@@ -266,7 +273,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     align-content: center;
 }
 .title{
-            color: white;
+   color: white;
 
 }
 
@@ -278,6 +285,59 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .cover-image{
     position: absolute;
     width:100%;
-    min-height:230px;
+    min-height:430px;
 }
 
+.parallax {
+    /* The image used */
+    background-image: url('cover.jpg');
+
+    /* Full height */
+    width: 100vw;
+    /*height: 30vw;*/
+    min-height:400px;
+ 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+h1{font-size:20px}
+h2{font-size:18px}
+h3{font-size:24px}
+h4{font-size:20px}
+h5{font-size:18px}
+h6{font-size:10px}
+p{font-size:14px}
+
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+h1{font-size:24px}
+h2{font-size:24px}
+h3{font-size:24px}
+h4{font-size:20px}
+h5{font-size:18px}
+h6{font-size:16px}
+p{font-size:14px}
+
+}
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+h1{font-size:42px}
+h2{font-size:36px}
+h3{font-size:24px}
+h4{font-size:20px}
+h5{font-size:18px}
+h6{font-size:16px}
+p{font-size:16px}
+
+}  
