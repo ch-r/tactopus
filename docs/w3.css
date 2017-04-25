@@ -242,6 +242,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .subtitle{
      width: 50%;
      margin: auto;
+
 }
 
 .nopadding{
@@ -258,3 +259,25 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 #title{
     margin-left: 10px;
 }
+
+.title-text{
+    position: absolute;
+    text-align: center;
+    align-content: center;
+}
+.title{
+            color: white;
+
+}
+
+.centered-content{
+    align-content: center;
+    text-align: center;
+}
+
+.cover-image{
+    position: absolute;
+    width:100%;
+    min-height:230px;
+}
+
