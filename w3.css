@@ -293,16 +293,17 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     background-image: url('cover.jpg');
 
     /* Full height */
-    width: 100vw;
+    /*width: 100vw;*/
     /*height: 30vw;*/
+    width:100%;
     min-height:400px;
  
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
-    background-size: cover;
+    /*background-size: cover;*/
 }
 
 .logo{
