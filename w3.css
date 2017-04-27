@@ -215,8 +215,13 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
  width: 100%;
 }
 
+.left{
+        float: left;
+}
 
-
+.right{
+        float: right;
+}
 .unit{
     display: table-cell;
     vertical-align: middle;
@@ -237,9 +242,14 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     padding-right: 10px;
     padding-bottom: 30px;
     padding-left: 10px;
+}
 
-     /*width: 100%;
-     border-style: solid;*/
+.box-footer{
+     display: table;
+     padding-top: 30px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-left: 10px;
 }
 
 .coverbox{
@@ -319,6 +329,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   position: fixed;
   top: 0;
   width: 100%;
+  padding: 5px 0px;
 }
 
 .navbar a {
@@ -331,7 +342,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 }
 
 a {
-        color: #8B5284;
+    color: #8B5284;
 }
 
 .share-buttons img {
@@ -351,8 +362,51 @@ a {
 
 .social {
     background: #8B5284;
+}
+
+
+
+/* Member Image Hover Effect */
+.hover_img {
+  display: none
+}
+
+.member-profile:hover .unhover_img{
+  display: none;
+}
+
+.member-profile:hover .hover_img {
+  display: block;
+}
+
+.row1 .col-md-3, .row2 .col-md-3 {
+	padding-bottom: 40px;
+}
+
+.form{
+    width: 100%;
+    height: 50vh;
 
 }
+
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  color: #8b5284;
+  font-family: 'Baloo Thambi', cursive;
+  font-size: 20px;
+  padding: 5px 20px 5px 20px;
+  margin-top: 25px;
+  text-decoration: none;
+  background-color: white;
+}
+
+button{
+    color: white;
+
+}
+
+
 
 /* SMARTPHONES PORTRAIT */
 @media only screen and (min-width: 300px) {
@@ -376,6 +430,7 @@ h4{font-size:20px}
 h5{font-size:18px}
 h6{font-size:16px}
 p{font-size:14px}
+.navbar{position: fixed;}
 
 }
 
@@ -388,5 +443,6 @@ h4{font-size:20px}
 h5{font-size:18px}
 h6{font-size:16px}
 p{font-size:16px}
+.navbar{position: fixed;}
 
 }  
